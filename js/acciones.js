@@ -62,10 +62,10 @@ document.addEventListener("deviceready",function(){
 
 	   function flash(boton) 
 	   {
-		   boton.stop().animate({opacity:'0.5'},{
+		   boton.stop().animate({opacity:'0.2'},{
 			   duration:80,
 			   complete:function(){
-				   boton.stop().animate({opacity:'1'}, 200);
+				   boton.stop().animate({opacity:'1'}, 300);
 			   }
 		   });
 	   }
